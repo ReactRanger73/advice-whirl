@@ -20,11 +20,9 @@ const [adviceId,setAdviceId] = useState(0);
   useEffect(function(){
     getAdvice();
   },[]);
+
   return (
     <div >
-    
-
-
       <div className="advice-generator">
       <div className="advice-generator-output">
         <span className="advice-generator-advice-number">

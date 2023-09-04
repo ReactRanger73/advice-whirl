@@ -80,3 +80,9 @@ picture>img{
 .advice-generator-btn:is(:hover)>img{
   transform: rotate(180deg);
 }
+
+@media (max-width: 450px){
+  .advice-generator-quote {
+    font-size: 1.6rem;
+}
+}
